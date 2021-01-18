@@ -24,7 +24,7 @@ const questions = [
         type: 'input',
         message: 'What is your email address?',
         name: 'email address',
-        default: 'abuye20@yahoo.com',
+        default: 'abuyeye3@gmail.com',
         Validate: function (answer) {
             if (answer.length < 1) {
                 return console.log("A valid email address is required");
@@ -58,7 +58,7 @@ const questions = [
     {
         type: 'list',
         message: 'A lincense for your project.',
-        choices: ['MIT License','Boost Software License 1.0'],
+        choices: ['MIT License', 'GNU GPLv3', 'Mozilla Public License', 'Boost Software License 1.0'],
         name: 'License',
     },
     {
@@ -77,15 +77,13 @@ const questions = [
         type: 'input',
         message: 'What does the user need to know about using the repo?',
         name: 'repo',
-        default: 'Javascript'
-
-
+        default: 'readme-generator'
     },
     {
         type: 'input',
         message: 'What does the user need to know about contributing to the repo?',
         name: 'contributing',
-        default: 'Javascript'
+
     }
 ];
 
