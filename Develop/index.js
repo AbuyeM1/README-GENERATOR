@@ -4,6 +4,7 @@ const fs = require('fs');
 const util = require('util');
 
 //  console.log('hello');
+const api = require('./utils/api.js');
 const generateMarkdown = require('./utils/generateMarkdown.js');
 // console.log("hi");
 // TODO: Create an array of questions for user input
@@ -104,7 +105,7 @@ async function init() {
     try {
         const userResponses = await inquirer.prompt(questions);
         console.log("your responses:", usrerResponses);
-        console.log("thank you for your responses! fair yoour GitHub data next..");
+        console.log("thank you for your responses! fair your GitHub data next..");
 
         const userInfo = await api.getUser(userResponses);
         console.log("Your GitHub user info: ", userInfo);
@@ -122,4 +123,6 @@ async function init() {
 
 // Function call to initialize app
 init();
+
+
 
