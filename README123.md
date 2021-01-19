@@ -10,18 +10,21 @@
 
 
 ## Description
-This application uses user input from inquirer to a Readme.md
-${answers.description}
+This application uses user input from inquirer to a Readme.md file for user respository. The README.md file is creatd in the README.md can be found.
+
+Below is A walkthrough video the functionality of the application.
+
 ![Main]()
 
 ## Installation
-${answers.installtion}
+
 - npm init 
 - npm install inquirer
 ## Repository
-Run the following command at the terminal
 
- for your project and answer 
+ Run the following command at the terminal
+
+ for your project and answer.
 
 * node index.js
 
@@ -33,8 +36,8 @@ Run the following command at the terminal
 ![badge](https://shields.io/badge/downloads-120%2Fweek-green)
 
   ## Contributing
-  
-  *[Abuye Mamuye](https://github.com/AbuyeM1
+
+  * [Abuye Mamuye](https://github.com/AbuyeM1)
 
   ## Question
   * [Email](abuye20@yahoo.com)
