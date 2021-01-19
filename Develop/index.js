@@ -13,10 +13,10 @@ function promptUser() {
         { type: "input", name: "email", message: "What is your email address?" },
 
         {
-            type: "input", name: "project name", message: "What is your project's name?",
+            type: "input", name: "title", message: "What is your project's name?",
         },
         {
-            type: "input", mname: "description", message: "please write a short description of your project have?"
+            type: "input", name: "description", message: "please write a short description of your project have?"
         },
         {
             type: "list", name: "license", message: "Chose the appropriate license for this project: ", choices: ["GNU", "ISC", "MIT", "Mozilla",
@@ -27,13 +27,13 @@ function promptUser() {
             type: "input", name: "install", message: "What command should be run to install dependencies?"
         },
         {
-            type: "input", name: "tests", message: "What command should be run to run tests?"
+            type: "input", name: "test", message: "What command should be run to run tests?"
         },
         {
             type: "input", name: "repo", message: "What does the user need to know about using the repo? "
         },
         {
-            type: "input", name: "username", message: "What does the user need to know about contributing to the repo? "
+            type: "input", name: "contribute", message: "What does the user need to know about contributing to the repo? "
         },
 
     ]);
@@ -44,10 +44,13 @@ async function init() {
     try {
         
         const answers = await promptUser();
-        const generateMarkdown = generateMarkdown(answers);
+   
+        console.log(' Generating README file ...');
+        const generatedData= generateMarkdown(answers);
+       
        // TODO: Create a function to write README file
-        await writeFileAsync('./abu/README.md', generateContent);
-        console.log('✔️  Successfully wrote to README.md');
+        await writeFileAsync('README.md', generatedData);
+        console.log(' Successfully wrote to README.md');
     } catch (err) {
         console.log(err);
     }

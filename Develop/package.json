@@ -5,13 +5,21 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbuyeM1/README-GENERATOR.git"
+  },
   "author": "abuye Mamuye",
   "license": "ISC",
   "dependencies": {
     "inquirer": "^6.5.2",
-    "url": "https://github.com/AbuyeM1/README-GENERATOR"
+    "url": "https://github.com/AbuyeM1/README-GENERATOR/issues"
   },
+  "homepage": "https://github.com/AbuyeM1/README-GENERATOR#readme",
   "devDependencies": {},
   "keywords": [],
-  "description": "Command-Line application that uses input from a user to generate a README for GitHub Project"
+  "description": "Command-Line application that uses input from a user to generate a README for GitHub Project",
+  "bugs": {
+    "url": "https://github.com/AbuyeM1/README-GENERATOR/issues"
+  }
 }

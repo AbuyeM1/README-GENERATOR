@@ -11,14 +11,67 @@ function renderLicenseLink(license) {}
 function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
-function generateMarkdown(answers) {
-  return ` <h1 align="center">${answers.projectname}</h1>
-![]
-## Description
-${answers.description}
+function generateMarkdown(data) {
+
+let markDown='# Title : '+data.title;
+
+let tableOfContent='## Table of Contents';
+tableOfContent+=`
+- [Description](#Description)`;
+tableOfContent+=`
+- [Installation](#Installation)`;
+tableOfContent+=`
+- [Tests](#Test)`;
+tableOfContent+=`
+- [repo](#Repo)`;
+tableOfContent+=`
+- [License](#License)`;
+tableOfContent+=`
+- [Contributing](#Contributing)`;
+tableOfContent+=`
+- [Questions](#Questions)`;
 
 
-`;
+
+markDown+=`
+
+`+tableOfContent;
+if(data.description!=''){
+markDown+=`
+
+## Description` +`
+`+data.description;}
+
+if(data.install!=''){
+markDown+=`
+
+## Installation `+`
+`+data.install; }
+if(data.test!=''){
+markDown+=`
+
+## Test `+`
+`+data.test;}
+
+if(data.repo!='')
+markDown+='## Repository '+data.repo;
+
+markDown+=`## License
+
+ 
+![badge](https://shields.io/badge/license-`+data.license+`)`+`
+
+![badge](https://shields.io/badge/downloads-120%2Fweek-green)`
+
+markDown+='## Contributing '+ data.contribute;
+
+markDown+=`## Question
+* [Email](`+data.email+`)`;
+
+
+return markDown;
+  //return `# ${data.title}
+
 }
 
 module.exports = generateMarkdown;
