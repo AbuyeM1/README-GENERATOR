@@ -14,7 +14,7 @@ This application uses user input from inquirer to a Readme.md file for user resp
 
 Below is A walkthrough video the functionality of the application.
 
-![Main]()
+[![movie](Develop/GitHub.png)](Develop/abuye.mov)
 
 ## Installation
 

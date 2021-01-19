@@ -22,7 +22,6 @@ function promptUser() {
             type: "list", name: "license", message: "Chose the appropriate license for this project: ", choices: ["GNU", "ISC", "MIT", "Mozilla",
             ]
         },
-
         {
             type: "input", name: "install", message: "What command should be run to install dependencies?"
         },

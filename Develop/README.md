@@ -1,4 +1,4 @@
-# Title : readme gernerator
+# Title : readme generartor
 
 ## Table of Contents
 - [Description](#Description)
@@ -10,7 +10,7 @@
 - [Questions](#Questions)
 
 ## Description
-this generator creat readme file
+thi readme project create the fil
 
 ## Installation 
 npm install
@@ -20,10 +20,10 @@ na
 javascript
 ## License 
 
-![badge](https://shields.io/badge/license-GNU)
+![badge](https://shields.io/badge/license-MIT)
 
 ![badge](https://shields.io/badge/downloads-120%2Fweek-green)
 ## Contributing 
 javascript
 ## Question 
-* [Email](abuy3@gmail.com)
+* [Email](abuye@gmail.com)
