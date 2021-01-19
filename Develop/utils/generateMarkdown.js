@@ -11,16 +11,12 @@ function renderLicenseLink(license) {}
 function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
-function generateMarkdown(userResponses, userInfo) {
-  let drafyToc = '## Tabel of Contents';
-  if (userResponses.installation !== '') { drafyToc +=' * [Installation](#installation)'};
-  if (userResponses.usage !== '') { drafyToc += '*[Usade](#usage)'};
-  if (userResponses.Contributing !== '') {drafyToc += '*[Contributing](#Contributing'};
-  if (userResponses.tests !== '') { drafyToc += '*[Tests](#test)'};
+function generateMarkdown(answers) {
+  return ` <h1 align="center">${answers.projectname}</h1>
+![]
+## Description
+${answers.description}
 
-  let drafyMarkdown = '# ${userResponses.'
-
-  return `# ${data.title}
 
 `;
 }
