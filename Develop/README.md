@@ -1,4 +1,4 @@
-# Title : Professional README file generator
+# Title : readme gernerator
 
 ## Table of Contents
 - [Description](#Description)
@@ -8,13 +8,22 @@
 - [License](#License)
 - [Contributing](#Contributing)
 - [Questions](#Questions)
-behgfeuhferuhferoiuhg
 
 ## Description
-I have create  tis project .......
+this generator creat readme file
 
 ## Installation 
 npm install
-
 ## Test 
-npm test## Repository the user should know ......## License GNU## Contributing the user must know about javascript and node js
+na
+## Repository 
+javascript
+## License 
+
+![badge](https://shields.io/badge/license-GNU)
+
+![badge](https://shields.io/badge/downloads-120%2Fweek-green)
+## Contributing 
+javascript
+## Question 
+* [Email](abuy3@gmail.com)
