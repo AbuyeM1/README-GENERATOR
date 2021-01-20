@@ -1,4 +1,4 @@
-# Title : readme generater
+# Title : readme.md generator
 
 ## Table of Contents
 - [Description](#Description)
@@ -10,26 +10,26 @@
 - [Questions](#Questions)
 
 ## Description
-create readme
+This Application uses user to genarate readme.md file
 
 ## Installation 
-npm install
+npm install npm init
 
 ## Test 
-na
+N/A
 
 ## Repository 
-java
+javascript and node index.js
 
 ## License 
 
-![badge](https://shields.io/badge/license-GNU)
+![badge](https://shields.io/badge/license-MIT)
 
 ![badge](https://shields.io/badge/downloads-120%2Fweek-green)
 
 ## Contributing 
-java
+Javascript and node index.js
 
 ## Question 
 
-* [Email](abuye@gmail.com)
+* [Email](abuyeye3@gmail.com)
