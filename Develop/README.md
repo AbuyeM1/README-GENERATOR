@@ -1,4 +1,4 @@
-# Title : readme generartor
+# Title : readme generater
 
 ## Table of Contents
 - [Description](#Description)
@@ -10,20 +10,26 @@
 - [Questions](#Questions)
 
 ## Description
-thi readme project create the fil
+create readme
 
 ## Installation 
 npm install
+
 ## Test 
 na
+
 ## Repository 
-javascript
+java
+
 ## License 
 
-![badge](https://shields.io/badge/license-MIT)
+![badge](https://shields.io/badge/license-GNU)
 
 ![badge](https://shields.io/badge/downloads-120%2Fweek-green)
+
 ## Contributing 
-javascript
+java
+
 ## Question 
+
 * [Email](abuye@gmail.com)
