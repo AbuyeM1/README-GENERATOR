@@ -33,7 +33,7 @@ Below is A walkthrough video the functionality of the application.
  
  ![badge](https://shields.io/badge/license-MIT-green)
 
-![badge](https://shields.io/badge/downloads-120%2Fweek-green)
+
 
   ## Contributing
 
