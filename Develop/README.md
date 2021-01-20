@@ -1,4 +1,4 @@
-# Title : readme.md generator
+# Title : README.MD Generator 
 
 ## Table of Contents
 - [Description](#Description)
@@ -10,19 +10,16 @@
 - [Questions](#Questions)
 
 ## Description
-This Application uses user to genarate readme.md file
-
-![alt ](https://drive.google.com/file/d/1ugnDwfYQLtGCZPGzN0zpGNUL6cYmlAOR/view?usp=sharing)
+This Applecation uses user to generate Readme.md
 
 ## Installation 
-* npm install 
-* npm init
+npm instal
 
 ## Test 
-* N/A
+install init
 
 ## Repository 
-* javascript and node index.js
+node index.js
 
 ## License 
 
@@ -31,12 +28,8 @@ This Application uses user to genarate readme.md file
 ![badge](https://shields.io/badge/downloads-120%2Fweek-green)
 
 ## Contributing 
-Javascript and node index.js
+node index.js
 
 ## Question 
 
-* [Email](abuyeye3@gmail.com)
-
-* [LinkedIn](https://www.linkedin.com/in/abuye-mamuye-5a49921b0/)
-
-* [GitHub](https://github.com/AbuyeM1)
+* [Email](abuye20@yahoo.com)

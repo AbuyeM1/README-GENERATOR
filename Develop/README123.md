@@ -14,9 +14,9 @@ This application uses user input from inquirer to a Readme.md file for user resp
 
 Below is A walkthrough video the functionality of the application.
 
- ![alttext](https://drive.google.com/file/d/1TJqVvj05oZsQHGxEo_wHKLvjB3P1-YYd/view?usp=sharing)
+ ![alttext](https://lh3.googleusercontent.com/KyvvcO0bXTbkyu1F7-lXmKutFdRoVo31Buas7aP3r2EPQq5NsERd3M7S1mkA4yHj_6WLDdQ=s250)
 
- ![Image&video](https://drive.google.com/file/d/1ugnDwfYQLtGCZPGzN0zpGNUL6cYmlAOR/view?usp=sharing)
+ ![video](https://drive.google.com/file/d/1ugnDwfYQLtGCZPGzN0zpGNUL6cYmlAOR/view?usp=sharing)
 
 ## Installation
 
