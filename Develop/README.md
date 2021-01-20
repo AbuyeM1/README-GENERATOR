@@ -1,4 +1,4 @@
-# Title : README Generator
+# Title : Readme Genaroter
 
 ## Table of Contents
 - [Description](#Description)
@@ -10,7 +10,11 @@
 - [Questions](#Questions)
 
 ## Description
-This aplication create the Readme.md file
+
+![alttext](https://lh3.googleusercontent.com/KyvvcO0bXTbkyu1F7-lXmKutFdRoVo31Buas7aP3r2EPQq5NsERd3M7S1mkA4yHj_6WLDdQ=s250)
+
+![Video](https://drive.google.com/file/d/1ugnDwfYQLtGCZPGzN0zpGNUL6cYmlAOR/view?usp=sharing)
+his application uses user input from inquirer to a Readme.md file for user respository. The README.md file is creatd in the README.md can be found.
 
 ## Installation 
 npm install
@@ -27,9 +31,11 @@ node index.js
 
 ![badge](https://shields.io/badge/downloads-120%2Fweek-green)
 
-## Contributing 
-node index.js
-
 ## Question 
 
-* [Email](abuye20@yahoo.com)
+* [LinkedIn](https://www.linkedin.com/in/abuye-mamuye-5a49921b0/)
+
+ * [GitHub](https://github.com/AbuyeM1)
+
+
+* [Email](abueye@)

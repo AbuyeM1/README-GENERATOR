@@ -30,6 +30,10 @@ markDown+=`
 markDown+=`
 
 ## Description` +`
+
+![alttext](https://lh3.googleusercontent.com/KyvvcO0bXTbkyu1F7-lXmKutFdRoVo31Buas7aP3r2EPQq5NsERd3M7S1mkA4yHj_6WLDdQ=s250)
+
+![Video](https://drive.google.com/file/d/1ugnDwfYQLtGCZPGzN0zpGNUL6cYmlAOR/view?usp=sharing)
 `+data.description;
 
 if(data.install!=''){
@@ -63,11 +67,18 @@ if (data.contribute!=''){
 markDown+=`
 
 ## Contributing `+`
+
+* [Abuye Mamuye](https://github.com/AbuyeM1)
 `+data.contribute;}
 
 markDown+=`
 
 ## Question `+`
+
+* [LinkedIn](https://www.linkedin.com/in/abuye-mamuye-5a49921b0/)
+
+ * [GitHub](https://github.com/AbuyeM1)
+
 
 * [Email](`+data.email+`)`;
 
